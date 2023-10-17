@@ -1,5 +1,7 @@
 import { Flex, Text } from '@aws-amplify/ui-react'
 import styles from '../styles/comment.module.css'
+
+console.log('smaple')
 function Comment({ message, username, ...props }) {
 	return (
 		<Flex
