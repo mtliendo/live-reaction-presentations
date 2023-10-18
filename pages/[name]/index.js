@@ -324,6 +324,7 @@ const PresentPage = () => {
 								</Flex>
 								<Button
 									variation="link"
+									style={{ zIndex: 9999 }}
 									onClick={() => router.push(`${router.asPath}/results`)}
 								>
 									<Flex direction="row" gap=".5em" alignItems="center">
