@@ -38,7 +38,7 @@ const PresentPage = () => {
 	const [cacheClient, setCacheClient] = useState(null)
 	const [topicClient, setTopicClient] = useState(null)
 	const [reactionSubscription, setReactionSubscription] = useState(null)
-	const [iframeHeight, setIframeHeight] = useState('75vh')
+	const [iframeHeight, setIframeHeight] = useState('100vh')
 	const [shouldResize, setShouldResize] = useState(true)
 	const [isListening, setIsListening] = useState(true)
 	const iframeContainerRef = useRef(null)
